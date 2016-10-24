@@ -1,8 +1,8 @@
 ---
 layout: post
-title: BlocFlix
+title: Address Bloc
 thumbnail-path: "img/blocflix.png"
-short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
+short-description: Address Bloc is an address book application run from the command line.
 
 ---
 
