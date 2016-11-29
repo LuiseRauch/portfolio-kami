@@ -6,9 +6,11 @@ layout: default
 
   <div class="work">
     <h2>My Work</h2>
+    <div>
+      <img src="giphy.gif" alt="work in progress" style="width:480px;height:360px;">
+    </div>
 
-    {% for project in site.portfolio limit:5 %}
-    ![work in progress]({{ site.baseurl }}/img/giphy.gif)
+    <!-- {% for project in site.portfolio limit:5 %} -->
     <!-- <div class="project">
       <div class="project-thumb">
         <a href="{{ project.url | prepend: site.baseurl }}">
@@ -20,7 +22,7 @@ layout: default
         <p>{{ project.short-description }}</p>
       </div>
     </div> -->
-    {% endfor %}
+    <!-- {% endfor %} -->
   </div>
 
   <div class="posts">
