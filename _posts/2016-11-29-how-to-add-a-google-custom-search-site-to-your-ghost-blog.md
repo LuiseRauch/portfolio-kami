@@ -3,7 +3,7 @@ layout: post
 title: How to add a Google Custom Search site to your Ghost blog
 ---
 I could already tell from the search results, adding a Google Custom search box to your Casper theme on your Ghost blog, might not be as straight forward as promised in the tutorials. <br />
-I didn't like the look and feel of it on my main page, so I chose to make an extra static search site.
+I didn't like the look and feel of the box on my main page, so I chose to make an extra static search site.
 
 ### Create a Google Custom search engine
 To add in Google Custom search, you first need to create a search engine for your site. You can do this by going to Google's [Custom Search](https://cse.google.com/cse/create/new) site.
@@ -15,7 +15,7 @@ When you've finished, give your search engine a name, then click the blue "Creat
 
 ![Screenshot Google Custom Search Success]({{ site.baseurl }}/img/posts/ScreenShotGoogleCustomSearchSuccess.png)
 
-After you've created the custom search engine, you will be taken to a screen that provides you with several options. Select the "get code" button next to the "Add it to your site" option. <br />
+After you've created the custom search engine, you will be taken to a screen that provides several options. Select the "get code" button next to the "Add it to your site" option. <br />
 Upon clicking the "get code" button, you should be directed to a screen with your custom search engine code.
 
 
@@ -26,13 +26,13 @@ Creating a static search page in Ghost is very similar to creating a post, but i
 
 You log in to your blog admin, click on New Post and should be on the Ghost editor screen. Call your site **Search** in the title and add whatever content you like.
 
-Once you’ve completed writing your page content, you need to designate it as a static page. By clicking “gear” icon in the top right hand corner, the post settings menu is revealed, which controls post details and whether or not the content should be set as a static page.
+To designate it as a static page, click the “gear” icon in the top right hand corner, the post settings menu is revealed, which controls post details and whether or not the content should be set as a static page.
 
-In this case, we’d like this content to appear as a page, therefore we’ll need to check the empty box next to “Turn this post into a static page”, as shown in the screenshot above.
+In our case, we’d like this content to appear as a page, therefore check the empty box next to “Turn this post into a static page”, as shown in the screenshot above.
 
 *Note:The URL of your page will default to the title of the page, broken down using hyphens (i.e. your-page). If you want to change this, simply click inside the URL field and begin typing. You will need to remember this URL if you are planning to link to it within your theme or other posts.*
 
-Publish your static search page by clicking the Save button in the bottom right hand corner of your screen. Beside it, you will see an arrow. Click on the arrow to change the action of the button to Publish Now. The button will turn red. Click on the button again to publish your static page. You will get a success notification once it is live on your blog.
+Publish your static search page.
 
 
 ### Create a custom page template
