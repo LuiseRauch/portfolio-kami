@@ -6,7 +6,8 @@ I could already tell from the search results, adding a Google Custom search box 
 
 To add in Google Custom search, you first need to create a search engine for your site. You can do this by going to Google's [Custom Search](https://cse.google.com/cse/create/new) site.
 
-![Screenshot Google Custom Search]({{ site.baseurl }}/img/posts/ScreenShotGoogleCustomSearch.png =250x)
+![Screenshot Google Custom Search]({{ site.baseurl }}/img/posts/ScreenShotGoogleCustomSearch.png)
+![Geometric pattern with fading gradient]({{ site.baseurl }}/img/blocflix.png)
 
 If you'd like your entire blog to be searched, you will need to type in  yoursubdomain.ghost.io/* into the "sites to search" field. Please note the * at the end of the URL.
 When you've finished, give your search engine a name, then click the blue "Create" button to continue the process of setting up your custom search engine.
@@ -42,7 +43,7 @@ Copy the code from your page.hbs file
 Once you've created your page template you'll need add some code to it. Copy the code from your theme's page.hbs file and paste it into your new page template. When you're finished, save the page template file. We will access this template file again once we've created our form.
 
 Paste the embed code into your page template
-Depending on where you'd like your form to appear on your contact page, you'll want either paste the form embed code before or after the {{content}}. How you format this page is completely up to you. If you're using the default Ghost theme, Casper, and you'd like the form to display AFTER your contact page content, you would paste your form code after the bit of code that looks similar to this:
+Depending on where you'd like your form to appear on your contact page, you'll want either paste the form embed code before or after "content". How you format this page is completely up to you. If you're using the default Ghost theme, Casper, and you'd like the form to display AFTER your contact page content, you would paste your form code after the bit of code that looks similar to this:
 
 Copy and paste the provided code, we've created earlier with Google's [Custom Search](https://cse.google.com/cse/create/new), into a <div> element, where you want both the search box and the search results to render.
 
