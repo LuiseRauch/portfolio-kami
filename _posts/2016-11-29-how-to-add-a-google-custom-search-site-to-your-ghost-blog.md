@@ -7,12 +7,11 @@ I could already tell from the search results, adding a Google Custom search box 
 To add in Google Custom search, you first need to create a search engine for your site. You can do this by going to Google's [Custom Search](https://cse.google.com/cse/create/new) site.
 
 ![Screenshot Google Custom Search]({{ site.baseurl }}/img/posts/ScreenShotGoogleCustomSearch.png)
-![Geometric pattern with fading gradient]({{ site.baseurl }}/img/blocflix.png)
 
 If you'd like your entire blog to be searched, you will need to type in  yoursubdomain.ghost.io/* into the "sites to search" field. Please note the * at the end of the URL.
 When you've finished, give your search engine a name, then click the blue "Create" button to continue the process of setting up your custom search engine.
 
-![Screenshot Google Custom Search Success]({{ site.baseurl }}/img/posts/ScreenShotGoogleCustomSearchSuccess.png =250x)
+![Screenshot Google Custom Search Success]({{ site.baseurl }}/img/posts/ScreenShotGoogleCustomSearchSuccess.png)
 
 After you've created the custom search engine, you will be taken to a screen that provides you with several options. Select the "get code" button next to the "Add it to your site" option.
 Upon clicking the "get code" button, you should be directed to a screen with your custom search engine code.
@@ -20,7 +19,7 @@ Upon clicking the "get code" button, you should be directed to a screen with you
 
 Next we create a Static Search Page - Creating a static search page in Ghost is very similar to creating a post, but it will not show up in your blog post collection on the main site.
 
-![Screenshot Search Ghost Editor]({{ site.baseurl }}/img/posts/ScreenShotSearchEditor.png =250x)
+![Screenshot Search Ghost Editor]({{ site.baseurl }}/img/posts/ScreenShotSearchEditor.png)
 
 You log in to your blog admin, then click on New Post from the navigation menu on the left and should be on the Ghost editor screen. Simply call your site **Search** in the title and add whatever content you like.
 
@@ -35,7 +34,7 @@ Publish your static search page by clicking the Save button in the bottom right 
 
 Create a custom page template
 
-![Screenshot Search Atom Editor]({{ site.baseurl }}/img/posts/ScreenShotAtom.png =250x)
+![Screenshot Search Atom Editor]({{ site.baseurl }}/img/posts/ScreenShotAtom.png)
 
 Now that we've created a static page, we'll need to create a custom page template inside our theme. To do this, first create a new file within your theme's root directory. Page templates must always start out with 'page-' and then include the page URL after the hyphen. So, for example: If you have a contact page with a page URL of "contact" your page template name would be "page-search.hbs"
 
@@ -52,4 +51,4 @@ Save your page template - Once you've placed your embed code into the contact pa
 
 Upload the theme to your Ghost blog - Once saved, upload the theme to your blog. Now, when you view your search page you should see your search box.
 
-![Screenshot Search Ghost Blog]({{ site.baseurl }}/img/posts/ScreenShotSearchBlog.png =250x)
+![Screenshot Search Ghost Blog]({{ site.baseurl }}/img/posts/ScreenShotSearchBlog.png)
