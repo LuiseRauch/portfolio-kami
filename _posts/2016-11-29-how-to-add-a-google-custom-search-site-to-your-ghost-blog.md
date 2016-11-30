@@ -5,6 +5,7 @@ title: How to add a Google Custom Search site to your Ghost blog
 I could already tell from the search results, adding a Google Custom search box to your Casper theme on your Ghost blog, might not be as straight forward as promised in the tutorials.
 I didn't like the look and feel of it on my main page, so I chose to make an extra static search site.
 
+### Create a Google Custom search engine
 To add in Google Custom search, you first need to create a search engine for your site. You can do this by going to Google's [Custom Search](https://cse.google.com/cse/create/new) site.
 
 ![Screenshot Google Custom Search]({{ site.baseurl }}/img/posts/ScreenShotGoogleCustomSearch.png)
@@ -18,7 +19,7 @@ After you've created the custom search engine, you will be taken to a screen tha
 Upon clicking the "get code" button, you should be directed to a screen with your custom search engine code.
 
 
-# Next we create a Static Search Page
+### Create a static search page
 Creating a static search page in Ghost is very similar to creating a post, but it will not show up in your blog post collection on the main site.
 
 ![Screenshot Search Ghost Editor]({{ site.baseurl }}/img/posts/ScreenShotSearchEditor.png)
@@ -34,24 +35,22 @@ In this case, we’d like this content to appear as a page, therefore we’ll ne
 Publish your static search page by clicking the Save button in the bottom right hand corner of your screen. Beside it, you will see an arrow. Click on the arrow to change the action of the button to Publish Now. The button will turn red. Click on the button again to publish your static page. You will get a success notification once it is live on your blog.
 
 
-# Create a custom page template
+### Create a custom page template
 
 ![Screenshot Search Atom Editor]({{ site.baseurl }}/img/posts/ScreenShotAtom.png)
 
 Now that we've created a static page, we'll need to create a custom page template inside our theme. To do this, first create a new file within your theme's root directory. Page templates must always start out with 'page-' and then include the page URL after the hyphen. So, for example: If you have a contact page with a page URL of "contact" your page template name would be `page-search.hbs`.
 
 Copy the code from your `page.hbs` file.
-
 Once you've created your page template you'll need add some code to it. Copy the code from your theme's `page.hbs` file and paste it into your new page template. When you're finished, save the page template file. We will access this template file again once we've created our form.
 
 Paste the embed code into your page template.
-
 Copy and paste the provided code, we've created earlier with Google's [Custom Search](https://cse.google.com/cse/create/new), into a `<div>` element, where you want both the search box and the search results to render.
 
-#Save your page template
+#### Save your page template
 Once you've placed your embed code into the contact page template, save your template file.
 
-#Upload the theme to your Ghost blog
+#### Upload the theme to your Ghost blog
 Once saved, upload the theme to your blog. Now, when you view your search page you should see your search box.
 
 ![Screenshot Search Ghost Blog]({{ site.baseurl }}/img/posts/ScreenShotSearchBlog.png)
