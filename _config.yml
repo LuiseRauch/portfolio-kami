@@ -18,7 +18,7 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: "hello@luiserauch.com" # Full email address, e.g. "sam@example.com"
+  email_address: "luise.rauch@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -27,7 +27,7 @@ theme_settings:
   github: "LuiseRauch" # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
-  linkedin: "www.linkedin.com/pub/luise-rauch/83/942/733" # Full URL
+  linkedin: www.linkedin.com/pub/luise-rauch/83/942/733 # Full URL
   pinterest:
   reddit:
   soundcloud:
