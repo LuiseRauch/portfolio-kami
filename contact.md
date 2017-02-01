@@ -5,7 +5,7 @@ permalink: /contact/
 feature-img: "img/color.png"
 ---
 
-Hi there! I love getting emails. Contact me at <a href="mailto:hello@luiserauch.com>hello@luiserauch.com<a/> or use the contact form.
+Hi there! I love getting emails. Contact me at <hello@luiserauch.com> or use the contact form.
 
 <form action="https://getsimpleform.com/messages?form_api_token=222f34d867606ec8a8179cffa66bebab" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
