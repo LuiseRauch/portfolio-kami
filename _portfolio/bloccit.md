@@ -27,7 +27,7 @@ To create Bloccit I first started designing a basic UI as a foundation to build 
 
 Then created data models so when Bloccit users post information and comment on those posts - posts & comments are persisting, used the ORM library ActiveRecord to communicate with the database and seeded data.
 
-![Sreenshot Bloccit Topics]({{ site.baseurl }}/img/portfolio/bloccit_2.png)
+![Sreenshot Bloccit Topics]({{ site.baseurl }}/img/portfolio/bloccit_6.png)
 
 I Implemented CRUD operations on my models so the users can perform these actions from the views, nested resources and refactored code.
 And added validation methods for the database.
