@@ -11,10 +11,10 @@ short-description: A Reddit replica where people can post, vote on, share and sa
 
 ## Explanation
 
-Just like Reddit, Bloccit (find it [here](https://peaceful-bayou-3140.herokuapp.com/) on Heroku) is a Ruby on Rails web app where people can post, vote on, share & save links and comments.
+Just like Reddit, Bloccit (find it [here](https://peaceful-bayou-3140.herokuapp.com/){:target="_blank"} on Heroku) is a Ruby on Rails web app where people can post, vote on, share & save links and comments.
 It also provides authentication and authorization.
 
-This was my first project at [bloc.io](https://bloc.io).
+This was my first project at [bloc.io](https://bloc.io){:target="_blank"}.
 
 ## Problem
 
