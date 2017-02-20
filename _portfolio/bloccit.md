@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Bloccit
-thumbnail-path: "img/portfolio/bloccit_1.png"
+thumbnail-path: "img/portfolio/bloccit_5.png"
 short-description: A Reddit replica where people can post, vote on, share and save links and comments.
 
 ---
 
 {:.center}
-![Sreenshot Bloccit Sign Up]({{ site.baseurl }}/img/portfolio/bloccit_1.png)
+![Sreenshot Bloccit Sign Up]({{ site.baseurl }}/img/portfolio/bloccit_5.png)
 
 ## Explanation
 
