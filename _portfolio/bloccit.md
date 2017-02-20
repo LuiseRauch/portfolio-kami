@@ -27,18 +27,24 @@ To create Bloccit I first started designing a basic UI as a foundation to build 
 
 Then created data models so when Bloccit users post information and comment on those posts - posts & comments are persisting, used the ORM library ActiveRecord to communicate with the database and seeded data.
 
-![Sreenshot Bloccit Topics]({{ site.baseurl }}/img/portfolio/bloccit_6.png)
+
+![Sreenshot Bloccit Topics]({{ site.baseurl }}/img/portfolio/bloccit_2.png)
+
 
 I Implemented CRUD operations on my models so the users can perform these actions from the views, nested resources and refactored code.
 And added validation methods for the database.
 
+
 ![Sreenshot Bloccit New Post]({{ site.baseurl }}/img/portfolio/bloccit_4.png)
+
 
 I built a user authentication system (instead of using Devise or similar) to get a better feeling on how it works, associated users and posts to allow ownership of content by defining roles & rules. I added authorization and used shallow nesting to prevent routes from becoming long.
 
 I then added three more features - lables, favourites and voting. The labeling feature - to learn about the many-to-many relationship and polymorphism, the voting feature using inclusion validation - and the favoriting feature to allow users to flag posts to notify them when a post receives a new comment using ActionMailer and callbacks.
 
+
 ![Sreenshot Bloccit Post]({{ site.baseurl }}/img/portfolio/bloccit_3.png)
+
 
 I also used Ajax to delete & create comments, without reloading the page and in the end build a RESTful API for Bloccit, to make the system's data available for other developers to use.
 
