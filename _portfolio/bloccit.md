@@ -52,9 +52,7 @@ I Implemented CRUD operations on my models so the users can perform these action
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-
   <br>
-
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
@@ -62,7 +60,9 @@ I Implemented CRUD operations on my models so the users can perform these action
     <span class="dot" onclick="currentSlide(4)"></span>
   </div>
 </div>
+
 <br />
+
 I built a user authentication system (instead of using Devise or similar) to get a better feeling on how it works, associated users and posts to allow ownership of content by defining roles & rules. I added authorization and used shallow nesting to prevent routes from becoming long.
 
 I then added three more features - lables, favourites and voting. The labeling feature - to learn about the many-to-many relationship and polymorphism, the voting feature using inclusion validation - and the favoriting feature to allow users to flag posts to notify them when a post receives a new comment using ActionMailer and callbacks.
