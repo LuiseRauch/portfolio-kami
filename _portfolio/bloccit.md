@@ -13,7 +13,7 @@ short-description: A Reddit replica where people can post, vote on, share and sa
 
 **Bloccit** (find it [here](https://peaceful-bayou-3140.herokuapp.com/){:target="_blank"} on Heroku) was my first project at [bloc.io](https://bloc.io){:target="_blank"}. The purpose of **Bloccit** was to learn the fundamentals of web development, Rails and TDD and to built a robust web application with a comprehensive test suite. Along the way, I've learned about clients, servers, MVC architecture, RESTful API design, refactoring, and much more.
 
-> It was impressive how quickly you can set up a Rails App with a good tutorial and no prior experience in coding.
+> I was impressed by how quickly I was able set up a Rails App with a good tutorial and no prior experience in coding.
 
 ## Bloccit - the Idea
 
