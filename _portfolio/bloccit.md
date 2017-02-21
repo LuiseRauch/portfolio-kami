@@ -28,7 +28,7 @@ To create **Bloccit** I first started designing a basic UI as a foundation to bu
 
 I created data models so when **Bloccit** users post information and comment on those posts - posts & comments are persistent, I used the ORM library ActiveRecord to communicate with the database and seeded data.
 
-I Implemented CRUD operations on my models so the users can perform these actions from the views, nested resources and refactored code. And added validation methods for the database.
+I implemented CRUD operations on my models so the users can perform these actions from the views, nested resources and refactored code. And added validation methods for the database.
 
 
 <div class="slideshow">
