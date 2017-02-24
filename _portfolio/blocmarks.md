@@ -1,46 +1,69 @@
 ---
 layout: post
 title: Blocmarks
-thumbnail-path: "img/blocflix.png"
+thumbnail-path: "img/portfolio/blocmarks_4.png"
 short-description: Social Bookmarking With Email - a production quality social bookmarking app that allows users to send, manage, and share bookmarks.
 
 ---
-https://afternoon-hollows-1410.herokuapp.com
+
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/portfolio/blocmarks_4.png)
 
-## Explanation
+The major learning objective for **Blocmarks** (find it [here](https://afternoon-hollows-1410.herokuapp.com){:target="_blank"} on Heroku) was on introducing me to [RubyGems](https://rubygems.org/){:target="_blank"} and API Services rather than building everything from scratch.
 
- This is a social bookmarking site that allows users to browse topics and bookmarks created by others. Users are also able to add bookmarks to topics they've created or add on to topics created by others. Users are also able to favorite bookmarks created by others and have them added to their profile.
+>  While being very impressed by the great solutions that are out there I also found myself spending a lot of time customizing in later projects to get the exact functionality that I needed.
 
+## Blocmarks - the Idea
 
-## Problem
+**Blocmarks** is an application that allows its user to bookmark URLs via email, peruse other user's bookmarks and maintain a personal index of categorized bookmarks.
 
+It's easy enough to bookmark a URL in your browser, but eventually your bookmark library may get cluttered and it may require effort to manage bookmarks.
+Wouldn't you also like the ability to share bookmarks with friends? That is not something you can do easily from your native browser.
 
-blocmarks allowed me to stash bookmarks according to topics. An easy way to navigate and find what I needed to reference I a few clicks.
+**Blocmarks** should solve these problems by organizing bookmarks by topic and making them public so that other users can find them and add bookmarks to their own **Blocmarks** profile.
 
- many users carry in a large library of bookmarks.
+## Blocmarks - the App
 
- It would be nice to have the ability to share bookmarks with friends.
+<div class="slideshow">
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="/img/portfolio/blocmarks_1.png" style="width:100%">
+    </div>
 
-## Solution
+    <div class="mySlides fade">
+      <img src="/img/portfolio/blocmarks_3.png" style="width:100%">
+    </div>
 
- to send emails to blocmarks to create new bookmark entries in the database. implement and configure Mailgun to receive incoming emails. The email needs only the topic in the subject and the url in the body to be parsed and stored by blocmarks.
+    <div class="mySlides fade">
+      <img src="/img/portfolio/blocmarks_5.png" style="width:100%">
+    </div>
 
-> Liking bookmarks allowed users to remember which bookmarks owned by others they liked. The liked bookmarks would then be placed along with their own in their user profile for easy reference.
+    <div class="mySlides fade">
+      <img src="/img/portfolio/blocmarks_6.png" style="width:100%">
+    </div>
 
-Blocmarks will solve these problems by organizing bookmarks by topic and making them public so that other users can find them and add bookmarks to their own Blocmarks profile.
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+</div>
 
+<br />
 
-## Results
+To allow **Blocmarks** users to sign up and send emails for account confirmation I used the [Devise gem](https://github.com/plataformatec/devise){:target="_blank"} for authentication and implemented user sign in/out.
 
- When I started the project I was concerned if blocmarks was going to be useable at completion. The large amount of bookmarks people had was going to be a barrier for adoption. The CSV uploader and saving bookmarks from received email neutralized this fear instantaneously.
+I created an index of all topics and their bookmarks and implement CRUD to allow users to create, delete and update topics and bookmarks.
 
+To email a URL to **Blocmarks** and have it saved in the database I useed [Mailgun](https://www.mailgun.com/) to configure **Blocmarks** to receive an email containing a bookmark URL. I parsed and converted incoming emails into bookmark objects that belong to a topic.
 
-## Conclusion
+I used the [Pundit](https://github.com/elabs/pundit){:target="_blank"} gem for authorization to make the user the only one allowed to delete and update their bookmarks & topics (only if there are no bookmarks created by someone else)
 
-I will definitely keep email and database integration present for all of my future projects.
+I implemented liking & unliking bookmarks and created User Profiles to see a list of bookmarks on personal profiles that have been added and or liked.
 
-The major learning objective for this app was to continue to build off of my introduction to test-first development in Blocipedia. I also wanted to focus more on Front-end development to create an improved user experience. To do this I challenged myself to implement a new Front-end framework, Zurb Foundation, and also utilize Sass(CSS pre-proccessor) for cleaner more modular stylesheets.
-
-This application was a great experience as it challenged me to learn and utilize new technologies, such as Sass, the Embed.ly API, and a New Front-end Framework. Learning new technologies has it's challenges, but may be the thing I find most rewarding and exciting about the world of web-development. In web development, there is a never ending desire to improve our current tool-set, build things that make development faster and more enjoyable, and push the limits of what we think is possible.
+With [Embedly](http://embed.ly/){:target="_blank"} I created URL previews for each bookmark and used [FriendlyId](https://github.com/norman/friendly_id){:target="_blank"} for the **Blocmarks** to have pretty & readable URLs.

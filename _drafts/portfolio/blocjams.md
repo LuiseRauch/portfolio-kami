@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Bloc Jams
-thumbnail-path: "img/blocflix.png"
+title: BlocJams
+thumbnail-path: "img/potfolio/blocjams_1.png"
 short-description: A digital music player like Spotify.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/potfolio/blocjams_1.png)
 
-## Explanation
 
 BlocJams is a digital music player like Spotify, created as a means to learn frontend web development. It employs a user-friendly web interface to display and play songs. The mp3 files are accessed through BuzzFeed sounds and the application is built within an Angular framework.
 
@@ -25,7 +24,7 @@ learn a whole lot more about controlling the DOM (Document Object Model) through
 refactor my JavaScript and jQuery into AngularJS
 build Angular templates, controllers, services, directives, and filters
 
-## Problem
+## BlocJams - the Idea
 
 The main task was to learn how to incorporate and build the entire application using the Angular framework. It was challenging to learn how to initiate Angular modules, controllers and services. It was also difficult to learn and appropriately apply the different types of services. Finally, I had to learn the Angular directives to use in the html pages in order to have the desired functionality.
 
@@ -43,7 +42,7 @@ Accessing music through a static website is almost impossible, and if it is, it'
 Static website music players, which only allowed access to one type of music and not a myriad of albums.
 A responsive audio player accessible anywhere.
 
-## Solution
+## BlocJams - the App
 
 The site was centered around one Angular module built with a UI-router to connect the different controllers and services. The controllers were organized according to the different pages within the application- one for the landing page, one for the collection of albums, and one for the album page that lists the album songs. A player-bar controller was also created to compartmentalize the functionality of the bottom bar and incorporate it in the appropriate views.
 
@@ -55,7 +54,6 @@ Using a variety of images, music files, and JavaScript libraries, the Blocjams p
 
 
 
-## Results
 
 The application is fully functioning with the ability to navigate between the different pages. The song player will play songs upon request with the ability to stop, pause, skip to the next/previous song, skip to a later point in the song, and to control the volume.
 
@@ -73,8 +71,6 @@ The Blocjams static home page, album collection page, and also album contents pa
 To ensure responsiveness, I used certain CSS styling that augmented the structure if the screen size changed. Hence, the music lover could find, select, and play the song of their choice anywhere.
 
 
-
-## Conclusion
 
 Angular was an efficient way to build this web based music player. BuzzFeed sounds made simple music tasks such as start, stop, and play easy. The UI-Router was an easy and efficient way to structure the application that made the single page application very effective.
 

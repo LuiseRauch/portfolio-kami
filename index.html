@@ -9,7 +9,7 @@ layout: default
 
     <p class="progress">work in progress<span>.</span><span>.</span><span>.</span></p>
 
-    {% for project in site.portfolio limit:1 %}
+    {% for project in site.portfolio limit:2 %}
       <div class="project">
       <div class="project-thumb">
         <a href="{{ project.url | prepend: site.baseurl }}">
