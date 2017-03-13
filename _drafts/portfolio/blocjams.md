@@ -1,84 +1,69 @@
 ---
 layout: post
 title: BlocJams
-thumbnail-path: "img/potfolio/blocjams_1.png"
+thumbnail-path: "img/portfolio/blocjams_3.png"
 short-description: A digital music player like Spotify.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/potfolio/blocjams_1.png)
+![Sreenshot BlocJams ]({{ site.baseurl }}/img/portfolio/blocjams_3.png)
 
+**Bloc Jams** is a digital music player like Spotify and was my first frontend project at [bloc.io](https://bloc.io){:target="_blank"}. The aim  was to learn about programming concepts using JavaScript, applying that knowledge by altering the DOM, structuring & styling with HTML and CSS, using my first libraries in jQuery and Buzz and refactoring the code into AngularJS.
 
-BlocJams is a digital music player like Spotify, created as a means to learn frontend web development. It employs a user-friendly web interface to display and play songs. The mp3 files are accessed through BuzzFeed sounds and the application is built within an Angular framework.
+> For learning purposes we wrote the application first in plain JavaScript, then jQuery & refactored it into AngularJS. It was interesting to see how little code is needed & how much more intuitive those frameworks/libraries are. While plain JavaScript is challenging for me, I will work on  having a profound knowledge of JS rather than just relying on easier frameworks.  
 
-This school project was built in order to utilize HTML, CSS, Javascript and jQuery to produce a responsive, easy-to-navigate website that can generate and play music from a library.
-
-BlocJams is a digital music player similar to Spotify. The website was built to practice and gain understanding of web development concepts.
-
-It is my first Front End project, so it has a heavier focus on website design and user interface than my previous projects, which were more focused on the logic working in the background of most websites (user account logins, for example).
-For this project, just about everything I did was completely new to me. While I had dabbled a little with JavaScript code, HTML, and CSS design before Bloc Jams, this project pushed me to:
-code a music player bar that responds appropriately to play, pause, skip, back, and scrub commands (and continues to play when the user leaves the page)
-integrate jQuery to create animations within the project
-learn a whole lot more about controlling the DOM (Document Object Model) through CSS and JavaScript code
-refactor my JavaScript and jQuery into AngularJS
-build Angular templates, controllers, services, directives, and filters
 
 ## BlocJams - the Idea
 
-The main task was to learn how to incorporate and build the entire application using the Angular framework. It was challenging to learn how to initiate Angular modules, controllers and services. It was also difficult to learn and appropriately apply the different types of services. Finally, I had to learn the Angular directives to use in the html pages in order to have the desired functionality.
+Just like Spotify, **Bloc Jams** is a simple & user-friendly online music player - highly usable, responsive and aesthetically pleasing.
 
-The challenge here was to build an attractive and fully functional site for finding and playing music, much like Spotify
+The focus is on usability that works seamlessly across any device. The Angular single page application allows the user to simply enter the web app and begin playing music by pressing play.
 
-
-The aim was to build a simple online music player which would be highly usable, responsive and aesthetically pleasing.
-
-
-The hardest parts of this project were definitely when I needed to relearn a lot of what I thought I knew about code in order to refactor Bloc Jams into Angular. While AngularJS is an incredible way to condense the amount of redundant code in a project and handle a lot of Back End logic through a Front End code base, it was another learning curve for me that took a long time to work through.
-
-
-Accessing music through a static website is almost impossible, and if it is, it's frustrating. For Blocjams, it was necessary to circumvent this frustration by allowing a user to simply enter the web app and begin playing music by pressing play. Additionally, accessing a web application that plays music on a mobile phone can be cumbersome and buggy, hence making the Blocjams player responsive was critical. In brief, the two problems I was trying to address in the project were:
-
-Static website music players, which only allowed access to one type of music and not a myriad of albums.
-A responsive audio player accessible anywhere.
+code a music player bar that responds appropriately to play, pause, skip, back, and scrub commands (and continues to play when the user leaves the page)
 
 ## BlocJams - the App
 
+The static backbone of the **Bloc Jams** layout with is built with HTML. Then added styling and responsiveness using CSS ,integrate jQuery to create animations and effects within the project  and implemented interactivity and dynamic functionality an Angular framework.
+
+
+jQuery is a great tool for adding animations and effects to a page, but it's difficult to build a sophisticated frontend application with jQuery alone. In this project, you'll refactor Bloc Jams using AngularJS, commonly referred to as Angular.
+
+build Angular templates, controllers, services, directives, and filters
+
 The site was centered around one Angular module built with a UI-router to connect the different controllers and services. The controllers were organized according to the different pages within the application- one for the landing page, one for the collection of albums, and one for the album page that lists the album songs. A player-bar controller was also created to compartmentalize the functionality of the bottom bar and incorporate it in the appropriate views.
 
-I built the site initially through HTML and CSS, then added functionality and animation with Javascript and jQuery.
+The UI-Router was an easy and efficient way to structure the application that made the single page application very effective.
 
-Three pages were implemented: the landing page, the collection page and the album page. The pages feature minimalistic contemporary design. The website uses jQuery as the main library to handle user interactions. Sound was handled by the Buzz library.
-
-Using a variety of images, music files, and JavaScript libraries, the Blocjams player was born. The assets included images of albums and audio files from those albums. jQuery was used to create dynamic movements within the Blocjams player bar and also allowed for simple selection within the album. Consequently, users could easily switch, play, or pause songs in the player bar. Lastly, the player bar itself was adjustable via jQuery selectors and handlers. The audio player song file was enabled via the Buzz API, which allowed users to better interact with the player bar and the volume of the song.
-
-
+Sound was handled by the Buzz library.
+The mp3 files are accessed through BuzzFeed sounds.
+Bloc Jams has been a silent music player so far, and it's time to change that. We'll use the Buzz music library to play and pause music in our application. We've already written many of the functions required to update the interface, so we'll focus more on helper methods that use Buzz to change song playback, volume, and state.
 
 
-The application is fully functioning with the ability to navigate between the different pages. The song player will play songs upon request with the ability to stop, pause, skip to the next/previous song, skip to a later point in the song, and to control the volume.
+<div class="slideshow">
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="/img/portfolio/blocjams_1.png" style="width:100%">
+    </div>
 
-The resulting website is attractive and responsive, and functions much like a basic version of Spotify.
+    <div class="mySlides fade">
+      <img src="/img/portfolio/blocjams_4.png" style="width:100%">
+    </div>
 
-BlocJams is a beautiful responsive website. It responds to changes in browser window size and looks good both on a phone and a desktop computer.
+    <div class="mySlides fade">
+      <img src="/img/portfolio/blocjams_5.png" style="width:100%">
+    </div>
 
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
 
+  </div>
+</div>
 
-The Blocjams static home page, album collection page, and also album contents page. The static page was an aesthetically pleasing introduction to the website and its capabilities. By selecting collection users could access the entirety of the albums available. Thereafter, they could select the album of their choice. Once in the album, users could begin playing by simply selecting the play button. Switching was conducted via the player bar or by selecting a new song. And the user also had the option of changing the place in the song and the volume of the song.
-
-> The Blocjams player only had three pages, but due to its functionality, it provided the music obsessed listener with direct access to what matters most, the song.
-
-
-To ensure responsiveness, I used certain CSS styling that augmented the structure if the screen size changed. Hence, the music lover could find, select, and play the song of their choice anywhere.
-
-
-
-Angular was an efficient way to build this web based music player. BuzzFeed sounds made simple music tasks such as start, stop, and play easy. The UI-Router was an easy and efficient way to structure the application that made the single page application very effective.
-
-This project was a terrific learning experience, allowing me to showcase basic web-building skills and produce a product of which I can be proud.
-
-Making the website allowed me to put some of my web development knowledge into practice and also learn a lot of new things. During the course of development I practiced styling the page with CSS, dynamically altering the contents of pages using JavaScript and learned a couple of libraries. I am now building on that experience in the hopes of creating more complex webpages and applications.
-
-
-I was surprised to discover how simple API plugins and jQuery could create such a dynamic webpage. Further, I learned the DOM, its magnificent usefulness, and how CSS selectors are used across an interface.
-
-I learned that labeling functions very specifically was key in efficiency as my codebase grew.
+<br />

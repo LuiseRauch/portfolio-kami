@@ -7,11 +7,11 @@ short-description: Social Bookmarking With Email - a production quality social b
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/portfolio/blocmarks_4.png)
+![Screenshot Blocmarks Topic Detail]({{ site.baseurl }}/img/portfolio/blocmarks_4.png)
 
 The major learning objective for **Blocmarks** (find it [here](https://afternoon-hollows-1410.herokuapp.com){:target="_blank"} on Heroku), my second project at [bloc.io](https://bloc.io){:target="_blank"}, was on introducing me to [RubyGems](https://rubygems.org/){:target="_blank"} and API Services rather than building everything from scratch.
 
->  While being very impressed by the great solutions that are out there I also found myself spending a lot of time customizing in later projects to get the exact functionality that I needed.
+>  While being very impressed by the great solutions that are out there I also found myself spending a lot of time customizing gems in later projects to get the exact functionality that I needed.
 
 ## Blocmarks - the Idea
 
